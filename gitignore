@@ -1,0 +1,31 @@
+# Ignore IDE and editor directories
+.vscode/
+.idea/
+.settings/
+
+# Ignore build files
+target/
+*.war
+*.jar
+*.class
+
+# Maven and Gradle-specific files
+.mvn/
+.gradle/
+*.iml
+pom.xml.*.backup
+
+# Ignore environment and config files
+.env
+.env.*
+
+# Ignore log and temporary files
+*.log
+*.tmp
+.history
+
+# macOS specific files
+.DS_Store
+
+# Other system files
+Thumbs.db
