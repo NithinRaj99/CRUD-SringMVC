@@ -5,7 +5,7 @@ FROM tomcat:9-jdk11-openjdk
 ENV CATALINA_HOME=/usr/local/tomcat
 
 # Add the WAR file to the Tomcat webapps directory
-COPY target/your-CRUD.war /usr/local/tomcat/webapps/ROOT.war
+COPY target/CRUD.war /usr/local/tomcat/webapps/ROOT.war
 
 # Expose port 8080 for the web application
 EXPOSE 8080
